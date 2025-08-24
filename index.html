@@ -6,37 +6,27 @@
     </head>    
     <body>         
         <h1>Formularios</h1>
-        <form action="https://servidor.web.com/guardarDatos" method="post">
-            
-            <p>
-                <label for="texto">Texto</label>
-                <input type="text" value="valor inicial" name="texto" id="texto"/>
-            </p>
-            
-            <p>
-                <label for="edad"> Numero</label>
-                <input type="number" placeholder="Este es un numero" name="edad"/>
-            </p>
-
-            <p>
-                <label>Email</label>
-                <input type="email" name="email"/>   
-            </p>
-            
-            <p>
-                <label>Password</label>
-                <input type="password" name="password"/>
-            </p>  
-              
-            <p>
-                <label>Fecha</label>
-                <input type="date" name="fecha-de-nacimiento"/>
-            </p>
-            <p>
-                <label>Descripcion</label>
-                <textarea name="descripcion" id="descripcion">esto es una descripcion</textarea>
-            </p>
-
-        </form>
+        <p>
+            <label>Texto</label>
+            <input type="text" id="text">
+        </p>
+        <fieldset>
+                <legend>Checkbox</legend>
+                <ul>
+                    <li>
+                        <label for="check-op-1">Opcion1</label>
+                        <input id="check-op-1" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="check-op-2">Opcion2</label>
+                        <input id="check-op-2" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="check-op-3">Opcion3</label>
+                        <input id="check-op-3" type="checkbox">
+                    </li>
+                </ul>
+        </fieldset>
+        
     </body>
 </html>
