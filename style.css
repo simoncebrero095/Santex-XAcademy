@@ -1,48 +1,17 @@
 /* Asi comenta en Css*/
-
-/*Estos cambios aplica en todo */
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-p {
-    color:brown;
-}
-p a {
-    color: blue;
-}
-p span {
-    font-weight: bolder !important;
-}
-p a span {
-    font-weight: normal;
+#flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
 }
 
 
-h1,h2,h3 {
-    color:greenyellow;
-}
-h1 {
-    font-size: 22px;
-}
-h2 {
-    font-size: 18px;
-}
-.destacado {
-    font-weight: 900;
-    float: right;
+.element{
+    border: solid thin black;
+    background-color: lightyellow;
     width: 100px;
-    margin-right: 30px;
-    color:black;
 }
-#elemento-destacado{
-    font-weight: 700;
-    color: grey;
-    font-size: italic;
-}
-
-
-/*
-- las reglas por etiqueta tienen menos precedencia (porque son genéricas).
-- las declaración de ID pisa cualquier otra regla (porque el ID es único, por lo cual es más específico).
-- !important esta regla sobreescribe cualquier regla anterior
-*/
