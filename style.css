@@ -1,17 +1,104 @@
 /* Asi comenta en Css*/
-#flex {
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e4eef8;
+}
+.wrapper{
+    width:1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-color: lightblue;
-    width: 500px;
-    height: 500px;
+    align-items: center;
+    justify-content:space-between ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #343f44;
+    font-size: 28px;
+}
+.logo i {
+    color: #2e86fd;
+    font-size: 35px;
+}
+.menu {
+    flex-grow: 2;
+    color: #343f44;
+    margin-left: 100px;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+.menu li {
+    margin-right: 30px;
+    font-weight: 600;
+}
+.outline-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 2px #2e86fd;
+    color: #2e86fd;
+    font-weight: bold;
 }
 
+.pre-title {
+    color: #6f7880;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+.presentacion{
+    text-align:center;
+    margin-top: 200px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 
-.element{
-    border: solid thin black;
-    background-color: lightyellow;
-    width: 100px;
+}
+
+.presentacion h1 {
+    color: #343f44;
+    font-size: 70px;
+    margin-top: 80px;
+    margin-bottom: 35px;
+    
+}
+.post-title {
+    color: #6f7880;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 50px;
+    margin-bottom: 30px;
+    display: block;
+}
+.subscribe-form input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a3a3a5;
+}
+.subscribe-form button{
+    width: 40%;
+    height: 55px;
+    border: none;
+    background-color: #fa593c;
+    color: white;
+    font-size: 16px;
+    font-weight:700;
+}
+.secondary-p{
+    color: #969da5;
+    font-weight: 600;
+}
+.features{
+    display: flex;
+    margin-top: 200px;
+
 }
