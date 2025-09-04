@@ -100,5 +100,12 @@ header {
 .features{
     display: flex;
     margin-top: 200px;
-
+    justify-content: space-around;
+}
+.feature{
+    display: flex;
+    align-items: start;
+}
+.feature h4{
+    margin: 0;
 }
